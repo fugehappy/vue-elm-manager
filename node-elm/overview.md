@@ -1,16 +1,26 @@
 对数据库的理解
 
-database 是一个大的仓库。包括许多房间
+database 是一个大的仓库，包括许多房间
+
 schema 就是其中的房间
+
 table 就是房间中的床
+
 index 是建立索引
 
 1. 启动mongod
 
 指定服务端口号，默认端口27017
+
+``` bash
 .\mongod.exe --dbpath d:\mongod\data\elm
+
+```
 指定端口号
+``` bash
 .\mongod.exe --port 28030 --dbpath d:\mongod\data\magicdict
+
+```
 
 2. node-elm后台服务启动，npm run dev
 
