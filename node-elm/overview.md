@@ -35,13 +35,22 @@
 
 [MongoCola](https://github.com/magicdict/MongoCola)
 
-新建连接，主机为localhost，端口号，然后其他不用配置，就导入了已有的数据
+新建连接，主机为localhost，端口号为启动mongod的端口号，MongoCola需要配置连接名称，然后其他不用配置，就导入了已有的数据
 
 ### 4. 数据管理
 
-在MongoCola中的增删改查的使用
+* MongoCola
 
-MongoCola中有tree, table，json三种格式查看数据
+工具中配置mongodbin的路径
+
+MongoCola中系统自带两个数据库，一个是admin，一个是local，可以右键新建数据库和表
+
+MongoCola中对表的增删查改的操作
+
+MongoCola中有tree，table，json三种格式查看数据
 MongoCola中选择添加空文档，追加数据
 MongoCola中选中数据，删除数据
 MongoCola中选中表的字段，双击修改
+
+* robomongo
+
